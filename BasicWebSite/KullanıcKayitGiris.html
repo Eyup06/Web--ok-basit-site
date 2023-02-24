@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="frm.css">
+    <style>
+      body{
+        background-color:azure;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="baglan.php" method="post">
+      <div class="frm">
+        <h1>KAYIT FORMU</h1>
+        <hr>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Email Giriniz" name="email" id="email" required>
+
+        <label for="sifre"><b>Şifre</b></label>
+        <input type="password" placeholder="Sifre Giriniz" name="sifre" id="sifre" required>
+
+        <label for="parolatekrar"><b>Tekrar Şifre Giriniz</b></label>
+        <input type="password" placeholder="Tekrar Sifre Giriniz" name="parolatekrar" id="parolatekrar" required>
+
+        <label for="cinsiyet"><b>Cinsiyet</b></label>
+        <input type="radio" name="cinsiyet" value="erkek">Erkek
+        <input type="radio" name="cinsiyet" value="kadin">Kadın
+        <input type="radio" name="cinsiyet" value="belirsiz">Belirtmek istemiyorum
+        
+        <hr>
+        <p>Bir hesap oluşturarak kabul etmiş olursunuz <a href="#">Şartlar & Gizlilik</a>.</p>
+
+        <button type="submit" class="kayitbtn">KAYIT</button>
+      </div>
+
+     
+
+    </form>
+
+    
+  </body>
+</html>
